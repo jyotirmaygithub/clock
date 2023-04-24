@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* universal css properties */
+
+.universal {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+/* --------------------------- */
+body {
+    background-color: rgba(69, 63, 69, 1);
+
+}
+
+.changes {
+    height: 45vh;
+}
+
+.container {
+    height: 20vh;
+}
+
+.doing {
+    color: whitesmoke;
+    font-family: 'Tilt Prism', cursive;
+    font-size: 95px;
+}
+
+#just_doing {
+    font-family: 'Orbitron';
+    color: #D0D3D4;
+    font-size: 72px;
+    font-weight: 100;
+    letter-spacing: 0.015em;
+    font-style: normal;
+}
+@media screen and (min-width : 300px ) and (max-width  : 400px) {
+    .doing{
+        font-size: 48px;
+    }
+    .container{
+        height: 14vh;
+    }
+    #just_doing{
+        font-size: 50px;
+    }
+}
